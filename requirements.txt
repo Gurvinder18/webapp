@@ -3,3 +3,10 @@ Pillow~=9.0.1
 opencv-python~=4.5.5.64
 Flask~=2.0.3
 gunicorn
+tensorboard==2.8.0
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.1
+tensorflow-cpu==2.8.0
+tensorflow-io-gcs-filesystem==0.24.0
+torch==1.9.0+cpu
+torchvision==0.10.0+cpu
