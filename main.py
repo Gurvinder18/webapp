@@ -5,7 +5,7 @@ from fastai.vision import *
 from flask import Flask, request, jsonify
 
 app = Flask("__name__")
-learn = load_learner('/Users/gurvi/Desktop/pythonProject1', 'tanay.h5')
+learn = load_learner('/', 'tanay.h5')
 @app.route('/')
 def func():
     return "Use / predict"
